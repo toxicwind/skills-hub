@@ -5,8 +5,8 @@ use anyhow::{Context, Result};
 use super::skill_store::{migrate_legacy_db_if_needed_in_data_dir, SkillStore};
 
 #[allow(dead_code)]
-pub const PRODUCT_IDENTIFIER: &str = "com.qufei1993.skillshub";
-const TEST_PRODUCT_IDENTIFIER: &str = "com.qufei1993.skillshub.test";
+pub const PRODUCT_IDENTIFIER: &str = "com.grasphub.app";
+const TEST_PRODUCT_IDENTIFIER: &str = "com.grasphub.app.test";
 const DATABASE_FILE_NAME: &str = "skills_hub.db";
 const GIT_CACHE_DIR_NAME: &str = "skills-hub-git-cache";
 

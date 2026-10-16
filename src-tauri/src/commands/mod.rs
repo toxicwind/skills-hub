@@ -1853,7 +1853,7 @@ pub async fn get_github_release_notes(
         let proxy_url = get_github_proxy_url_core(&store)?;
         let tag = format!("v{}", version.trim().trim_start_matches('v'));
         let url = format!(
-            "https://api.github.com/repos/qufei1993/skills-hub/releases/tags/{}",
+            "https://api.github.com/repos/toxicwind/skills-hub/releases/tags/{}",
             urlencoding::encode(&tag)
         );
         let client = app_http_client(&proxy_url, Some(20))?;
