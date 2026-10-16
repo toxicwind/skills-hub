@@ -134,7 +134,7 @@ export function localizeCollectionIndex(
     tags: english?.tags ?? item.tags,
     cover: { ...item.cover, alt: english?.coverAlt ?? item.cover.alt },
     authorLabel:
-      item.authorLabel === "Skills Hub 整理"
+      item.authorLabel === "Grasp Hub 整理"
         ? t("catalog.editorialAuthor")
         : item.authorLabel.replace(/^(.*) 推荐$/, (_, name: string) =>
             t("catalog.recommendedBy", { name }),

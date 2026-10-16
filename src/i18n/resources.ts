@@ -36,7 +36,7 @@ export const resources = {
   "skills": "Skills search",
   "searchCollections": "Search collections or use cases…",
   "searchSkills": "Search Skills on skills.sh…",
-  "source": "Curated collections from the Skills Hub website. Choose a collection to review and install.",
+  "source": "Curated collections from the Grasp Hub website. Choose a collection to review and install.",
   "searchHint": "Search skills.sh with at least 2 characters.",
   "back": "All collections",
   "loadError": "Unable to load collections. Check your connection and retry.",
@@ -48,7 +48,7 @@ export const resources = {
   "view": "View collection",
   "empty": "No matching collections.",
   "installs": "{{count}} installs",
-  "editorialAuthor": "Curated by Skills Hub",
+  "editorialAuthor": "Curated by Grasp Hub",
   "recommendedBy": "Recommended by {{name}}",
   "licenseNeedsReview": "License pending review"
 },
@@ -97,11 +97,11 @@ export const resources = {
     },
     "unsupported": {
       "title": "This version cannot read the installation list",
-      "help": "Update Skills Hub, then open the collection from the website again. If this still happens after updating, report the collection name."
+      "help": "Update Grasp Hub, then open the collection from the website again. If this still happens after updating, report the collection name."
     },
     "empty": {
       "title": "No Skills selected for installation",
-      "help": "Select at least one Skill on the website, then click Install in Skills Hub."
+      "help": "Select at least one Skill on the website, then click Install in Grasp Hub."
     },
     "duplicate": {
       "title": "The installation list contains duplicate Skills or names",
@@ -113,15 +113,15 @@ export const resources = {
     },
     "invalid": {
       "title": "Unable to read the installation list",
-      "help": "Return to the collection page on the website, select the Skills again, and click Install in Skills Hub. If this still fails, report the collection name."
+      "help": "Return to the collection page on the website, select the Skills again, and click Install in Grasp Hub. If this still fails, report the collection name."
     },
     "unavailable": {
       "title": "Unable to receive the website installation request",
-      "help": "Restart Skills Hub, then click Install in Skills Hub on the website again."
+      "help": "Restart Grasp Hub, then click Install in Grasp Hub on the website again."
     },
     "failed": {
       "title": "Unable to open the installation confirmation right now",
-      "help": "Open this collection again. If this still fails, restart Skills Hub and retry."
+      "help": "Open this collection again. If this still fails, restart Grasp Hub and retry."
     }
   },
   "refreshFailed": "Installation finished, but the library could not refresh. Reopen My Skills.",
@@ -139,7 +139,7 @@ export const resources = {
   "noTools": "No available tools. Skills will be installed into your library.",
   "sharedTools": "Tools sharing the same directory are selected together."
 },
-      appName: 'Skills Hub',
+      appName: 'Grasp Hub',
       unknown: 'unknown',
       languageShort: {
         en: 'EN',
@@ -228,7 +228,7 @@ export const resources = {
         title: 'Open-source project',
         description: 'View the source code, releases, and issue tracker.',
         view: 'View on GitHub',
-        open: 'Open Skills Hub on GitHub',
+        open: 'Open Grasp Hub on GitHub',
         openFailed: 'Failed to open the project page',
       },
       titlebarUpdate: {
@@ -277,7 +277,7 @@ export const resources = {
   }
 },
       agentAccess: {
-        "help": "Give your Agents access to Skills Hub through the official Skill.",
+        "help": "Give your Agents access to Grasp Hub through the official Skill.",
         "nameConflict": {
           "state": "Name conflict",
           "title": "The official Skill name is already in use",
@@ -408,13 +408,13 @@ export const resources = {
         locations: {"manual_backup": "Manually deleted files", "sync_backup": "Files deleted by device sync", "hint": "These paths are read from this device. Each entry has its own backup subfolder. Select and copy a path to locate it; folders are created when needed.", "loading": "Loading storage locations…", "unavailable": "Storage locations are unavailable. Reopen help in the desktop app to try again."},
         nav: 'Recycle bin', title: 'Recycle bin',
         subtitle: 'Restore deleted Skills and their local setup.',
-        retention: 'Kept for 30 days', cleanupHelp: 'Deleted Skills are kept for 30 days, then removed automatically while Skills Hub is running.',
+        retention: 'Kept for 30 days', cleanupHelp: 'Deleted Skills are kept for 30 days, then removed automatically while Grasp Hub is running.',
         search: 'Search deleted Skills', loading: 'Loading recycle bin…', empty: 'Recycle bin is empty',
         emptyHelp: 'Deleted Skills will appear here for 30 days.', noResults: 'No matching Skills', noResultsHelp: 'Try another name, description, or tag.',
         count_one: '{{count}} item', count_other: '{{count}} items', newestFirst: 'Newest deleted first',
         column: { skill: 'Skill', source: 'Deleted by', deletedAt: 'Deleted', remaining: 'Time left' },
         daysLeft_one: '{{count}} day left', daysLeft_other: '{{count}} days left', remaining: 'Time left', restoreDetails: 'Restore details', closeDetails: 'Close details',
-        deletedAt: 'Deleted', sourceLabel: 'Deleted by', originalSource: 'Original source', managedCopy: 'Skills Hub managed copy',
+        deletedAt: 'Deleted', sourceLabel: 'Deleted by', originalSource: 'Original source', managedCopy: 'Grasp Hub managed copy',
         previousState: 'Previous state', enabled: 'Enabled', disabled: 'Disabled', restoreIncludes: 'Restore includes', restoreIncludesHelp: 'The following saved information will be restored.',
         filesAndDescription: 'Skill files and description', tagsCount: '{{count}} tags', targetsCount: '{{count}} tool sync relationships', previousTargets: 'Previous tool sync',
         restore: 'Restore', restored: 'Restored {{name}}.', deletePermanently: 'Delete permanently', deletedPermanently: 'Permanently deleted {{name}}.',
@@ -460,7 +460,7 @@ export const resources = {
         independentSyncNote: 'Other devices must synchronize separately to receive changes uploaded by this computer.',
         viewDeviceRecords: 'View device records',
         connectAnotherDevice: 'How to connect another device',
-        connectGuideInstall: 'Install and open Skills Hub on the other computer, then open Device Sync.',
+        connectGuideInstall: 'Install and open Grasp Hub on the other computer, then open Device Sync.',
         connectGuideRepository: 'Authorize an account with access, then select the existing repository and branch shown below.',
         connectGuideSync: 'Finish connecting and run the first sync. Resolve any conflicts, then sync again.',
         connectGuideRefresh: 'Return to this computer and click Check changes to refresh the device records.',
@@ -507,7 +507,7 @@ export const resources = {
         repositoryHelp: 'Use a private Git repository on GitHub, GitLab, or Gitee.',
         provider: 'Provider',
         oauthTitle: 'Connect your {{provider}} account',
-        oauthHelp: 'Authorize in your browser. Skills Hub never sees or stores your password.',
+        oauthHelp: 'Authorize in your browser. Grasp Hub never sees or stores your password.',
         signInWith: 'Authorize with {{provider}}',
         oauthUnavailableTitle: 'Browser authorization for {{provider}} is not supported in this version.',
         oauthUnavailable: 'Use Token or SSH under “Other connection methods” below to connect and sync.',
@@ -807,7 +807,7 @@ export const resources = {
         enableFailedTitle: 'Failed to enable {{name}}',
         disableFailedTitle: 'Failed to disable {{name}}',
         deleteTitle: 'Delete {{count}} Skills?',
-        deleteBody: 'Selected Skills will be moved to the Skills Hub recycle bin.',
+        deleteBody: 'Selected Skills will be moved to the Grasp Hub recycle bin.',
         deleteConfirm: 'Delete',
         deleteProgress: '{{current}}/{{total}} Removing {{name}} ...',
         deleteSuccess: 'Moved {{count}} skills to the recycle bin.',
@@ -921,7 +921,7 @@ export const resources = {
       linkLabel: 'link → {{target}}',
       deleteTitle: 'Delete Skill?',
       deleteBody:
-        'The Skill will be moved to the Skills Hub recycle bin, where files and local settings can be restored for 30 days.',
+        'The Skill will be moved to the Grasp Hub recycle bin, where files and local settings can be restored for 30 days.',
       cancel: 'Cancel',
       confirm: 'Confirm',
       confirmRemove: 'Remove',
@@ -957,7 +957,7 @@ export const resources = {
           'Enabled tools appear in install, import, sync, and Skill detail workflows.',
         customSection: 'Custom tools',
         customHint:
-          'Add internal or wrapped agents by pointing Skills Hub at their skills directories.',
+          'Add internal or wrapped agents by pointing Grasp Hub at their skills directories.',
         missingSection: '{{count}} undetected tools',
         noDetectedTools: 'No detected tools yet. Undetected built-in tools are folded below.',
         totalCount: 'Total',
@@ -1005,7 +1005,7 @@ export const resources = {
         removeCustom: 'Remove custom tool',
         removeCustomTitle: 'Remove custom tool?',
         removeCustomBody:
-          'This removes the tool configuration for "{{name}}" from Skills Hub. Skill files in {{path}} are not deleted. Add the tool again to resume management and sync.',
+          'This removes the tool configuration for "{{name}}" from Grasp Hub. Skill files in {{path}} are not deleted. Add the tool again to resume management and sync.',
         removeCustomConfirm: 'Remove tool',
         saved: 'Tool settings saved.',
       },
@@ -1237,9 +1237,9 @@ export const resources = {
       errors: {
         notTauri: 'Current environment is not Tauri. Please run `npm run tauri dev`.',
         skillExistsInHub:
-          'The central storage folder is managed by Skills Hub and cannot be used for manual placement. Move this Skill elsewhere, then add it again from Local Directory.',
+          'The central storage folder is managed by Grasp Hub and cannot be used for manual placement. Move this Skill elsewhere, then add it again from Local Directory.',
         skillExistsInHubNamed:
-          'The central storage folder is managed by Skills Hub and cannot be used for manual placement. Move "{{name}}" elsewhere, then add it again from Local Directory.',
+          'The central storage folder is managed by Grasp Hub and cannot be used for manual placement. Move "{{name}}" elsewhere, then add it again from Local Directory.',
         targetExists: 'Target folder already exists. Please remove it and try again.',
         targetExistsDetail:
           'Target folder already exists: {{path}}. For safety it was not overwritten.',
@@ -1319,8 +1319,8 @@ export const resources = {
         confirmPrefix: 'Are you sure you want to delete ',
         confirmSuffix: '?',
         warningRemoveFromTools: 'Remove from synced tools',
-        warningDeleteFromHub: 'Remove the managed copy from Skills Hub',
-        warningRecycle: 'Deleted Skills go to the local Skills Hub recycle bin, where files and local settings can be restored for 30 days',
+        warningDeleteFromHub: 'Remove the managed copy from Grasp Hub',
+        warningRecycle: 'Deleted Skills go to the local Grasp Hub recycle bin, where files and local settings can be restored for 30 days',
         warningKeepSource: 'Original local source folders are preserved',
         confirmButton: 'Delete',
       },
@@ -1459,7 +1459,7 @@ export const resources = {
   "view": "查看合集",
   "empty": "没有匹配的合集。",
   "installs": "{{count}} 次安装",
-  "editorialAuthor": "Skills Hub 整理",
+  "editorialAuthor": "Grasp Hub 整理",
   "recommendedBy": "{{name}} 推荐",
   "licenseNeedsReview": "许可待核对"
 },
@@ -1508,11 +1508,11 @@ export const resources = {
     },
     "unsupported": {
       "title": "当前版本无法读取这份安装清单",
-      "help": "请更新 Skills Hub，再从官网打开合集。如果更新后仍出现此提示，请反馈合集名称。"
+      "help": "请更新 Grasp Hub，再从官网打开合集。如果更新后仍出现此提示，请反馈合集名称。"
     },
     "empty": {
       "title": "还没有选择要安装的 Skills",
-      "help": "请在官网至少勾选一个 Skill，再点击「在 Skills Hub 中安装」。"
+      "help": "请在官网至少勾选一个 Skill，再点击「在 Grasp Hub 中安装」。"
     },
     "duplicate": {
       "title": "安装清单中有重名或重复的 Skills",
@@ -1524,15 +1524,15 @@ export const resources = {
     },
     "invalid": {
       "title": "无法读取安装清单",
-      "help": "请回到官网合集页重新选择 Skills，再点击「在 Skills Hub 中安装」；仍然失败时，请反馈合集名称。"
+      "help": "请回到官网合集页重新选择 Skills，再点击「在 Grasp Hub 中安装」；仍然失败时，请反馈合集名称。"
     },
     "unavailable": {
       "title": "无法接收官网的安装请求",
-      "help": "请重启 Skills Hub，再回到官网点击「在 Skills Hub 中安装」。"
+      "help": "请重启 Grasp Hub，再回到官网点击「在 Grasp Hub 中安装」。"
     },
     "failed": {
       "title": "暂时无法打开安装确认",
-      "help": "请重新打开这个合集；仍然失败时，重启 Skills Hub 后重试。"
+      "help": "请重新打开这个合集；仍然失败时，重启 Grasp Hub 后重试。"
     }
   },
   "refreshFailed": "安装已结束，但技能库刷新失败，请重新打开「我的 Skills」。",
@@ -1550,7 +1550,7 @@ export const resources = {
   "noTools": "暂无可用工具，Skills 将安装到技能库。",
   "sharedTools": "共用同一目录的工具会一起选中。"
 },
-      appName: 'Skills Hub',
+      appName: 'Grasp Hub',
       unknown: '未知',
       languageShort: {
         en: 'EN',
@@ -1638,7 +1638,7 @@ export const resources = {
         title: '开源项目',
         description: '查看源代码、版本发布和问题反馈。',
         view: '在 GitHub 查看',
-        open: '在 GitHub 打开 Skills Hub',
+        open: '在 GitHub 打开 Grasp Hub',
         openFailed: '无法打开项目页面',
       },
       titlebarUpdate: {
@@ -1687,7 +1687,7 @@ export const resources = {
   }
 },
       agentAccess: {
-        "help": "通过官方 Skill，让 Agent 使用 Skills Hub。",
+        "help": "通过官方 Skill，让 Agent 使用 Grasp Hub。",
         "nameConflict": {
           "state": "名称冲突",
           "title": "官方 Skill 名称已被占用",
@@ -1817,13 +1817,13 @@ export const resources = {
 },
         locations: {"manual_backup": "手动删除的文件备份", "sync_backup": "设备同步删除的文件备份", "hint": "以上路径由当前设备自动读取。每条记录对应一个独立备份子目录，可选中复制路径查找；文件夹会在需要时创建。", "loading": "正在读取保存位置…", "unavailable": "暂时无法获取保存位置，请在桌面应用中重新打开说明重试。"},
         nav: '回收站', title: '回收站', subtitle: '恢复删除的 Skill 及其本机配置。',
-        retention: '保留 30 天', cleanupHelp: '删除的 Skill 将保留 30 天，Skills Hub 运行时会自动清理。',
+        retention: '保留 30 天', cleanupHelp: '删除的 Skill 将保留 30 天，Grasp Hub 运行时会自动清理。',
         search: '搜索已删除的 Skill', loading: '正在加载回收站…', empty: '回收站为空', emptyHelp: '删除的 Skill 会在这里保留 30 天。',
         noResults: '没有匹配的 Skill', noResultsHelp: '请尝试搜索名称、描述或标签。', count_one: '共 {{count}} 项', count_other: '共 {{count}} 项', newestFirst: '按删除时间倒序',
         column: { skill: 'Skill', source: '删除来源', deletedAt: '删除时间', remaining: '剩余时间' },
         daysLeft_one: '剩余 {{count}} 天', daysLeft_other: '剩余 {{count}} 天', remaining: '剩余时间',
         restoreDetails: '恢复详情', closeDetails: '关闭详情', deletedAt: '删除时间', sourceLabel: '删除来源', originalSource: '原始来源',
-        managedCopy: 'Skills Hub 托管副本', previousState: '删除前状态', enabled: '已启用', disabled: '未启用', restoreIncludes: '恢复内容', restoreIncludesHelp: '恢复后将还原以下已保存信息。',
+        managedCopy: 'Grasp Hub 托管副本', previousState: '删除前状态', enabled: '已启用', disabled: '未启用', restoreIncludes: '恢复内容', restoreIncludesHelp: '恢复后将还原以下已保存信息。',
         filesAndDescription: 'Skill 文件和描述', tagsCount: '{{count}} 个标签', targetsCount: '{{count}} 个工具同步关系', previousTargets: '删除前同步工具',
         restore: '恢复', restored: '已恢复 {{name}}。', deletePermanently: '永久删除', deletedPermanently: '已永久删除 {{name}}。',
         confirmTitle: '永久删除这个 Skill？', confirmHelp: '永久删除 {{name}} 后，文件和恢复信息都无法找回。', confirmDelete: '永久删除',
@@ -1868,7 +1868,7 @@ export const resources = {
         independentSyncNote: '其他设备需要各自同步，才会获取本机上传的变化。',
         viewDeviceRecords: '查看设备记录',
         connectAnotherDevice: '如何接入另一台设备',
-        connectGuideInstall: '在另一台电脑安装并打开 Skills Hub，进入「设备同步」。',
+        connectGuideInstall: '在另一台电脑安装并打开 Grasp Hub，进入「设备同步」。',
         connectGuideRepository: '授权可访问此仓库的账号，选择下方已有仓库和相同分支。',
         connectGuideSync: '完成接入并首次同步；如有冲突，处理后再次同步。',
         connectGuideRefresh: '回到本机点击「检查变化」，即可刷新设备同步记录。',
@@ -1915,7 +1915,7 @@ export const resources = {
         repositoryHelp: '使用 GitHub、GitLab 或 Gitee 的私有 Git 仓库。',
         provider: '平台',
         oauthTitle: '连接你的 {{provider}} 账号',
-        oauthHelp: '在浏览器完成授权，Skills Hub 不会获取或保存你的密码。',
+        oauthHelp: '在浏览器完成授权，Grasp Hub 不会获取或保存你的密码。',
         signInWith: '使用 {{provider}} 授权',
         oauthUnavailableTitle: '当前版本暂不支持 {{provider}} 浏览器授权',
         oauthUnavailable: '请使用下方“其他连接方式”中的 Token 或 SSH 连接仓库，仍可正常同步。',
@@ -2215,7 +2215,7 @@ export const resources = {
         enableFailedTitle: '启用「{{name}}」失败',
         disableFailedTitle: '停用「{{name}}」失败',
         deleteTitle: '删除 {{count}} 个 Skills？',
-        deleteBody: 'Skill 将移入 Skills Hub 回收站，文件和本机配置可在 30 天内恢复。',
+        deleteBody: 'Skill 将移入 Grasp Hub 回收站，文件和本机配置可在 30 天内恢复。',
         deleteConfirm: '删除',
         deleteProgress: '{{current}}/{{total}} 正在移除「{{name}}」...',
         deleteSuccess: '已将 {{count}} 个 Skills 移入回收站。',
@@ -2326,7 +2326,7 @@ export const resources = {
       directory: '目录',
       linkLabel: 'link → {{target}}',
       deleteTitle: '删除 Skill？',
-      deleteBody: 'Skill 将移入 Skills Hub 回收站，文件和本机配置可在 30 天内恢复。',
+      deleteBody: 'Skill 将移入 Grasp Hub 回收站，文件和本机配置可在 30 天内恢复。',
       cancel: '取消',
       confirm: '确认',
       confirmRemove: '确认移除',
@@ -2405,7 +2405,7 @@ export const resources = {
         removeCustom: '移除自定义工具',
         removeCustomTitle: '移除自定义工具？',
         removeCustomBody:
-          '将从 Skills Hub 移除“{{name}}”的工具配置。不会删除 {{path}} 中的 Skill 文件；以后若要继续管理和同步，需要重新添加该工具。',
+          '将从 Grasp Hub 移除“{{name}}”的工具配置。不会删除 {{path}} 中的 Skill 文件；以后若要继续管理和同步，需要重新添加该工具。',
         removeCustomConfirm: '移除工具',
         saved: '工具设置已保存。',
       },
@@ -2626,9 +2626,9 @@ export const resources = {
       errors: {
         notTauri: '当前环境不是 Tauri，请用 `npm run tauri dev` 启动应用。',
         skillExistsInHub:
-          '中心存储目录由 Skills Hub 自动管理，不能直接放入新的 Skill；请先将该 Skill 移到其他目录，再通过“本地目录”重新添加。',
+          '中心存储目录由 Grasp Hub 自动管理，不能直接放入新的 Skill；请先将该 Skill 移到其他目录，再通过“本地目录”重新添加。',
         skillExistsInHubNamed:
-          '中心存储目录由 Skills Hub 自动管理，不能直接放入新的 Skill；请先将「{{name}}」移到其他目录，再通过“本地目录”重新添加。',
+          '中心存储目录由 Grasp Hub 自动管理，不能直接放入新的 Skill；请先将「{{name}}」移到其他目录，再通过“本地目录”重新添加。',
         targetExists: '目标目录已存在，请先清理后重试。',
         targetExistsDetail:
           '目标目录已存在同名 Skill：{{path}}。为安全起见未覆盖。\n你可以：先手动清理该目录后重试。',
@@ -2704,8 +2704,8 @@ export const resources = {
         confirmPrefix: '确定删除 ',
         confirmSuffix: '？',
         warningRemoveFromTools: '将从已同步的工具中移除',
-        warningDeleteFromHub: '从 Skills Hub 移除托管副本',
-        warningRecycle: '删除后会移入 Skills Hub 本机回收站，文件和本机配置保留 30 天，期间可以恢复',
+        warningDeleteFromHub: '从 Grasp Hub 移除托管副本',
+        warningRecycle: '删除后会移入 Grasp Hub 本机回收站，文件和本机配置保留 30 天，期间可以恢复',
         warningKeepSource: '本地原始源目录会保留',
         confirmButton: '删除',
       },

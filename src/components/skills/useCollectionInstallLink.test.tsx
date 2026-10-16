@@ -23,7 +23,7 @@ describe('collection link reception', () => {
     ['COLLECTION_LINK_TOO_LARGE', '安装清单太大', '分批安装'],
     ['COLLECTION_LINK_TOO_MANY_SKILLS', '一次选择的 Skills 太多', '2,000'],
     ['COLLECTION_LINK_TOO_MANY_SOURCES', '一次选择的来源仓库太多', '100'],
-    ['COLLECTION_LINK_UNSUPPORTED_VERSION', '当前版本无法读取这份安装清单', '更新 Skills Hub'],
+    ['COLLECTION_LINK_UNSUPPORTED_VERSION', '当前版本无法读取这份安装清单', '更新 Grasp Hub'],
     ['COLLECTION_LINK_EMPTY', '还没有选择要安装的 Skills', '至少勾选一个 Skill'],
     ['COLLECTION_LINK_DUPLICATE', '安装清单中有重名或重复的 Skills', '取消重名或重复的项目'],
     ['COLLECTION_LINK_UNSAFE', '这个合集的安装信息有误', '反馈合集名称'],
@@ -44,7 +44,7 @@ describe('collection link reception', () => {
   it('does not expose unexpected backend error details in the user-facing explanation', async () => {
     renderHook(() => useCollectionInstallLink(true, async () => { throw new Error('private-token-example') }))
     await act(async () => deliver(['skills-hub://install?manifest=bad']))
-    await waitFor(() => expect(message).toHaveBeenCalledWith(expect.stringContaining('重启 Skills Hub'), {
+    await waitFor(() => expect(message).toHaveBeenCalledWith(expect.stringContaining('重启 Grasp Hub'), {
       title: '暂时无法打开安装确认', kind: 'error', buttons: { ok: '关闭' },
     }))
     expect(JSON.stringify(vi.mocked(message).mock.calls)).not.toContain('private-token-example')
@@ -63,7 +63,7 @@ describe('collection link reception', () => {
   it('explains a link receiver failure with a restart action', async () => {
     vi.mocked(getCurrent).mockRejectedValueOnce(new Error('receiver failed'))
     renderHook(() => useCollectionInstallLink(true, async <T,>() => parsed as T))
-    await waitFor(() => expect(message).toHaveBeenCalledWith(expect.stringContaining('重启 Skills Hub'), {
+    await waitFor(() => expect(message).toHaveBeenCalledWith(expect.stringContaining('重启 Grasp Hub'), {
       title: '无法接收官网的安装请求', kind: 'error', buttons: { ok: '关闭' },
     }))
   })

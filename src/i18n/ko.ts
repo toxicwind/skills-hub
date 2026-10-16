@@ -33,7 +33,7 @@ export const ko = {
   "skills": "스킬 검색",
   "searchCollections": "컬렉션 또는 사용 사례 검색…",
   "searchSkills": "skills.sh에서 스킬 검색…",
-  "source": "Skills Hub 웹사이트의 컬렉션을 확인하고 필요한 스킬을 설치하세요.",
+  "source": "Grasp Hub 웹사이트의 컬렉션을 확인하고 필요한 스킬을 설치하세요.",
   "searchHint": "2자 이상 입력하여 skills.sh에서 개별 스킬을 검색하세요.",
   "back": "모든 컬렉션",
   "loadError": "컬렉션을 불러오지 못했습니다. 연결을 확인하고 다시 시도하세요.",
@@ -45,7 +45,7 @@ export const ko = {
   "view": "컬렉션 보기",
   "empty": "일치하는 컬렉션이 없습니다.",
   "installs": "{{count}}회 설치",
-  "editorialAuthor": "Skills Hub 선정",
+  "editorialAuthor": "Grasp Hub 선정",
   "recommendedBy": "{{name}} 추천",
   "licenseNeedsReview": "라이선스 검토 필요"
 },
@@ -94,11 +94,11 @@ export const ko = {
     },
     "unsupported": {
       "title": "이 버전에서는 설치 목록을 읽을 수 없습니다",
-      "help": "Skills Hub를 업데이트한 다음 웹사이트에서 컬렉션을 다시 여세요. 업데이트 후에도 문제가 계속되면 컬렉션 이름을 알려 주세요."
+      "help": "Grasp Hub를 업데이트한 다음 웹사이트에서 컬렉션을 다시 여세요. 업데이트 후에도 문제가 계속되면 컬렉션 이름을 알려 주세요."
     },
     "empty": {
       "title": "설치할 스킬을 선택하지 않았습니다",
-      "help": "웹사이트에서 스킬을 하나 이상 선택한 다음 Skills Hub에서 설치를 클릭하세요."
+      "help": "웹사이트에서 스킬을 하나 이상 선택한 다음 Grasp Hub에서 설치를 클릭하세요."
     },
     "duplicate": {
       "title": "설치 목록에 중복된 스킬 또는 이름이 있습니다",
@@ -110,15 +110,15 @@ export const ko = {
     },
     "invalid": {
       "title": "설치 목록을 읽을 수 없습니다",
-      "help": "웹사이트의 컬렉션 페이지에서 스킬을 다시 선택하고 Skills Hub에서 설치를 클릭하세요. 계속 실패하면 컬렉션 이름을 알려 주세요."
+      "help": "웹사이트의 컬렉션 페이지에서 스킬을 다시 선택하고 Grasp Hub에서 설치를 클릭하세요. 계속 실패하면 컬렉션 이름을 알려 주세요."
     },
     "unavailable": {
       "title": "웹사이트의 설치 요청을 받을 수 없습니다",
-      "help": "Skills Hub를 다시 시작한 다음 웹사이트에서 Skills Hub에서 설치를 다시 클릭하세요."
+      "help": "Grasp Hub를 다시 시작한 다음 웹사이트에서 Grasp Hub에서 설치를 다시 클릭하세요."
     },
     "failed": {
       "title": "지금은 설치 확인을 열 수 없습니다",
-      "help": "이 컬렉션을 다시 여세요. 계속 실패하면 Skills Hub를 다시 시작하고 재시도하세요."
+      "help": "이 컬렉션을 다시 여세요. 계속 실패하면 Grasp Hub를 다시 시작하고 재시도하세요."
     }
   },
   "refreshFailed": "설치는 종료되었지만 라이브러리를 새로 고치지 못했습니다. 내 스킬을 다시 여세요.",
@@ -136,7 +136,7 @@ export const ko = {
   "noTools": "사용 가능한 도구가 없습니다. 스킬은 라이브러리에 설치됩니다.",
   "sharedTools": "같은 디렉터리를 공유하는 도구는 함께 선택됩니다."
 },
-    "appName": "Skills Hub",
+    "appName": "Grasp Hub",
     "unknown": "알 수 없음",
     "languageShort": {
       "en": "EN",
@@ -229,7 +229,7 @@ export const ko = {
       "title": "오픈소스 프로젝트",
       "description": "소스 코드, 릴리스, 이슈 트래커를 확인하세요.",
       "view": "GitHub에서 보기",
-      "open": "GitHub에서 Skills Hub 열기",
+      "open": "GitHub에서 Grasp Hub 열기",
       "openFailed": "프로젝트 페이지를 열지 못했습니다."
     },
     "titlebarUpdate": {
@@ -278,7 +278,7 @@ export const ko = {
   }
 },
     agentAccess: {
-      "help": "공식 Skill을 통해 Agent가 Skills Hub를 사용하도록 설정하세요.",
+      "help": "공식 Skill을 통해 Agent가 Grasp Hub를 사용하도록 설정하세요.",
       "nameConflict": {
         "state": "이름 충돌",
         "title": "공식 Skill 이름이 이미 사용 중입니다",
@@ -408,12 +408,12 @@ export const ko = {
 },
         locations: {"manual_backup": "직접 삭제한 파일 백업", "sync_backup": "장치 동기화로 삭제된 파일 백업", "hint": "이 경로는 현재 장치에서 자동으로 읽습니다. 각 항목에는 별도의 백업 하위 폴더가 있습니다. 경로를 선택하고 복사하여 찾으세요. 폴더는 필요할 때 생성됩니다.", "loading": "저장 위치 불러오는 중…", "unavailable": "저장 위치를 확인할 수 없습니다. 데스크톱 앱에서 안내를 다시 열어 시도하세요."},
       "nav": "휴지통", "title": "휴지통", "subtitle": "삭제된 스킬과 로컬 설정을 복원합니다.",
-      "retention": "30일 보관", "cleanupHelp": "삭제된 스킬은 30일 동안 보관되며 Skills Hub가 실행 중일 때 자동으로 정리됩니다.",
+      "retention": "30일 보관", "cleanupHelp": "삭제된 스킬은 30일 동안 보관되며 Grasp Hub가 실행 중일 때 자동으로 정리됩니다.",
       "search": "삭제된 스킬 검색", "loading": "휴지통 불러오는 중…", "empty": "휴지통이 비어 있습니다", "emptyHelp": "삭제된 스킬은 여기에 30일 동안 보관됩니다.",
       "noResults": "일치하는 스킬이 없습니다", "noResultsHelp": "다른 이름, 설명 또는 태그를 검색해 보세요.", "count_one": "총 {{count}}개", "count_other": "총 {{count}}개", "newestFirst": "최근 삭제 순",
       "column": { "skill": "스킬", "source": "삭제 출처", "deletedAt": "삭제 시간", "remaining": "남은 기간" },
       "daysLeft_one": "{{count}}일 남음", "daysLeft_other": "{{count}}일 남음", "remaining": "남은 기간",
-      "restoreDetails": "복원 세부 정보", "closeDetails": "세부 정보 닫기", "deletedAt": "삭제 시간", "sourceLabel": "삭제 출처", "originalSource": "원본 소스", "managedCopy": "Skills Hub 관리 사본",
+      "restoreDetails": "복원 세부 정보", "closeDetails": "세부 정보 닫기", "deletedAt": "삭제 시간", "sourceLabel": "삭제 출처", "originalSource": "원본 소스", "managedCopy": "Grasp Hub 관리 사본",
       "previousState": "이전 상태", "enabled": "활성화됨", "disabled": "비활성화됨", "restoreIncludes": "복원 항목", "restoreIncludesHelp": "저장된 다음 정보를 복원합니다.", "filesAndDescription": "스킬 파일 및 설명",
       "tagsCount": "태그 {{count}}개", "targetsCount": "도구 동기화 관계 {{count}}개", "previousTargets": "이전 도구 동기화", "restore": "복원", "restored": "{{name}}을(를) 복원했습니다.",
       "deletePermanently": "영구 삭제", "deletedPermanently": "{{name}}을(를) 영구 삭제했습니다.", "confirmTitle": "이 스킬을 영구 삭제하시겠습니까?", "confirmHelp": "{{name}}과 저장된 복구 데이터는 삭제 후 복원할 수 없습니다.", "confirmDelete": "영구 삭제",
@@ -458,7 +458,7 @@ export const ko = {
       "independentSyncNote": "이 컴퓨터에서 업로드한 변경 사항을 받으려면 다른 장치를 별도로 동기화해야 합니다.",
       "viewDeviceRecords": "장치 기록 보기",
       "connectAnotherDevice": "다른 장치를 연결하는 방법",
-      "connectGuideInstall": "다른 컴퓨터에 Skills Hub를 설치하고 실행한 다음 장치 동기화를 엽니다.",
+      "connectGuideInstall": "다른 컴퓨터에 Grasp Hub를 설치하고 실행한 다음 장치 동기화를 엽니다.",
       "connectGuideRepository": "접근 권한이 있는 계정을 인증하고 아래의 기존 저장소와 동일한 브랜치를 선택합니다.",
       "connectGuideSync": "연결을 완료하고 처음 동기화합니다. 충돌이 있으면 해결한 후 다시 동기화합니다.",
       "connectGuideRefresh": "이 컴퓨터로 돌아와 변경 사항 확인을 눌러 장치 기록을 새로 고칩니다.",
@@ -505,7 +505,7 @@ export const ko = {
       "repositoryHelp": "GitHub, GitLab 또는 Gitee에서 비공개 Git 저장소를 사용하세요.",
       "provider": "플랫폼",
       "oauthTitle": "{{provider}} 계정을 연결하세요",
-      "oauthHelp": "브라우저에서 인증하세요. Skills Hub는 비밀번호를 확인하거나 저장하지 않습니다.",
+      "oauthHelp": "브라우저에서 인증하세요. Grasp Hub는 비밀번호를 확인하거나 저장하지 않습니다.",
       "signInWith": "{{provider}}로 승인",
       "oauthUnavailableTitle": "현재 버전은 {{provider}} 브라우저 인증을 지원하지 않습니다.",
       "oauthUnavailable": "아래 ‘다른 연결 방법’에서 토큰 또는 SSH로 저장소를 연결하면 정상적으로 동기화할 수 있습니다.",
@@ -835,7 +835,7 @@ export const ko = {
       "enableFailedTitle": "{{name}}을 활성화하지 못했습니다.",
       "disableFailedTitle": "{{name}}을(를) 비활성화하지 못했습니다.",
       "deleteTitle": "스킬 {{count}}개를 삭제하시겠습니까?",
-      "deleteBody": "선택한 스킬을 Skills Hub 휴지통으로 이동하며 30일 동안 복원할 수 있습니다.",
+      "deleteBody": "선택한 스킬을 Grasp Hub 휴지통으로 이동하며 30일 동안 복원할 수 있습니다.",
       "deleteConfirm": "삭제",
       "deleteProgress": "{{current}}/{{total}} {{name}} 제거 중...",
       "deleteSuccess": "{{count}} 스킬을 휴지통으로 옮겼습니다.",
@@ -945,7 +945,7 @@ export const ko = {
     "directory": "폴더",
     "linkLabel": "링크 → {{target}}",
     "deleteTitle": "스킬을 삭제하시겠습니까?",
-    "deleteBody": "스킬을 Skills Hub 휴지통으로 이동하며 파일과 로컬 설정을 30일 동안 복원할 수 있습니다.",
+    "deleteBody": "스킬을 Grasp Hub 휴지통으로 이동하며 파일과 로컬 설정을 30일 동안 복원할 수 있습니다.",
     "cancel": "취소",
     "confirm": "확인",
     "confirmRemove": "제거",
@@ -977,7 +977,7 @@ export const ko = {
       "builtinSection": "구성된 도구",
       "builtinHint": "활성화된 도구는 설치, 가져오기, 동기화 및 스킬 세부 작업 흐름에 표시됩니다.",
       "customSection": "맞춤형 도구",
-      "customHint": "Skills Hub가 해당 스킬 디렉터리를 가리키도록 설정하여 내부 또는 래퍼 에이전트를 추가합니다.",
+      "customHint": "Grasp Hub가 해당 스킬 디렉터리를 가리키도록 설정하여 내부 또는 래퍼 에이전트를 추가합니다.",
       "missingSection": "{{count}} 감지되지 않은 도구",
       "noDetectedTools": "아직 감지된 도구가 없습니다. 감지되지 않은 내장 도구는 아래로 접혀 있습니다.",
       "totalCount": "합계",
@@ -1023,7 +1023,7 @@ export const ko = {
       "saveCustom": "변경사항 저장",
       "removeCustom": "사용자 정의 도구 제거",
       "removeCustomTitle": "맞춤 도구를 삭제하시겠습니까?",
-      "removeCustomBody": "이렇게 하면 Skills Hub에서 \"{{name}}\"에 대한 도구 구성이 제거됩니다. {{path}}의 스킬 파일은 삭제되지 않습니다. 관리 및 동기화를 재개하려면 도구를 다시 추가하세요.",
+      "removeCustomBody": "이렇게 하면 Grasp Hub에서 \"{{name}}\"에 대한 도구 구성이 제거됩니다. {{path}}의 스킬 파일은 삭제되지 않습니다. 관리 및 동기화를 재개하려면 도구를 다시 추가하세요.",
       "removeCustomConfirm": "도구 제거",
       "saved": "도구 설정이 저장되었습니다."
     },
@@ -1222,8 +1222,8 @@ export const ko = {
     "claudePluginSourceWithVersion": "클로드 코드 플러그인 · {{plugin}} · v{{version}} · 사용자",
     "errors": {
       "notTauri": "현재 환경은 타우리가 아닙니다. `npm run tauri dev`을(를) 실행하세요.",
-      "skillExistsInHub": "중앙 저장소 폴더는 Skills Hub에서 관리하며 수동 배치에 사용할 수 없습니다. 이 스킬을 다른 곳으로 옮긴 다음 로컬 디렉터리에서 다시 추가하세요.",
-      "skillExistsInHubNamed": "중앙 저장소 폴더는 Skills Hub에서 관리하며 수동 배치에 사용할 수 없습니다. \"{{name}}\"을 다른 곳으로 이동한 다음 로컬 디렉터리에서 다시 추가하세요.",
+      "skillExistsInHub": "중앙 저장소 폴더는 Grasp Hub에서 관리하며 수동 배치에 사용할 수 없습니다. 이 스킬을 다른 곳으로 옮긴 다음 로컬 디렉터리에서 다시 추가하세요.",
+      "skillExistsInHubNamed": "중앙 저장소 폴더는 Grasp Hub에서 관리하며 수동 배치에 사용할 수 없습니다. \"{{name}}\"을 다른 곳으로 이동한 다음 로컬 디렉터리에서 다시 추가하세요.",
       "targetExists": "대상 폴더가 이미 존재합니다. 제거한 후 다시 시도해 주세요.",
       "targetExistsDetail": "대상 폴더가 이미 존재합니다: {{path}}. 안전을 위해 덮어쓰지 않았습니다.",
       "gitLfsFailed": "Git LFS 리소스를 체크아웃하지 못했습니다. Git LFS 설치 및 리소스 접근 권한을 확인하거나 해당 Skill 폴더 URL로 다시 시도하세요.",
@@ -1290,8 +1290,8 @@ export const ko = {
       "confirmPrefix": "정말로 제거하시겠습니까?",
       "confirmSuffix": "?",
       "warningRemoveFromTools": "동기화된 도구에서 제거",
-      "warningDeleteFromHub": "Skills Hub에서 관리 복사본을 제거합니다.",
-      "warningRecycle": "삭제된 스킬은 Skills Hub의 로컬 휴지통으로 이동하며 파일과 로컬 설정을 30일 동안 복원할 수 있습니다.",
+      "warningDeleteFromHub": "Grasp Hub에서 관리 복사본을 제거합니다.",
+      "warningRecycle": "삭제된 스킬은 Grasp Hub의 로컬 휴지통으로 이동하며 파일과 로컬 설정을 30일 동안 복원할 수 있습니다.",
       "warningKeepSource": "원본 로컬 소스 폴더는 보존됩니다.",
       "confirmButton": "삭제"
     },

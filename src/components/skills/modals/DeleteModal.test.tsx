@@ -16,7 +16,7 @@ describe('Skill deletion confirmations', () => {
     else render(<BulkDeleteModal {...props} skillNames={['demo', 'second']} />)
     expect(screen.getByRole('dialog')).toBeTruthy()
     expect(screen.queryByText(/系统回收站/)).toBeNull()
-    expect(screen.getByText(/删除后会移入 Skills Hub 本机回收站/)).toBeTruthy()
+    expect(screen.getByText(/删除后会移入 Grasp Hub 本机回收站/)).toBeTruthy()
     expect(onConfirm).not.toHaveBeenCalled()
     const cancel = screen.getByRole('button', { name: '取消' })
     expect(document.activeElement).toBe(cancel)

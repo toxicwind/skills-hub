@@ -18,7 +18,7 @@ const messages: Record<string, string> = {
   'toolManagement.removeCustom': 'Remove custom tool',
   'toolManagement.removeCustomTitle': 'Remove custom tool?',
   'toolManagement.removeCustomBody':
-    'This removes the tool configuration for "Demo tool" from Skills Hub. Skill files in /Users/demo/.demo/skills are not deleted. Add the tool again to resume management and sync.',
+    'This removes the tool configuration for "Demo tool" from Grasp Hub. Skill files in /Users/demo/.demo/skills are not deleted. Add the tool again to resume management and sync.',
   'toolManagement.removeCustomConfirm': 'Remove tool',
 }
 
