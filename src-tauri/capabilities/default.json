@@ -16,7 +16,7 @@
       "identifier": "opener:allow-open-url",
       "allow": [
         {
-          "url": "https://github.com/qufei1993/skills-hub"
+          "url": "https://github.com/toxicwind/skills-hub"
         },
         {
           "url": "https://github.com/login/device*"

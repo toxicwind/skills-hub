@@ -126,7 +126,7 @@ pub fn validate_manifest(
 pub fn validate_local_test_config(config: &serde_json::Value) -> Result<(), &'static str> {
     if config["productName"] != "Skills Hub Local Test"
         || config["mainBinaryName"] != "skills-hub-local-test"
-        || config["identifier"] != "com.qufei1993.skillshub.local-test"
+        || config["identifier"] != "com.grasphub.app.local-test"
         || config["bundle"]["createUpdaterArtifacts"] != false
         || config["bundle"]["externalBin"] != serde_json::json!([])
         || config["plugins"]["updater"]["endpoints"] != serde_json::json!([])
@@ -142,7 +142,7 @@ mod local_test_config_tests {
     fn local_test_requires_distinct_identity_binary_and_disabled_release_updater() {
         let config = serde_json::json!({
             "productName": "Skills Hub Local Test", "mainBinaryName": "skills-hub-local-test",
-            "identifier": "com.qufei1993.skillshub.local-test",
+            "identifier": "com.grasphub.app.local-test",
             "bundle": { "createUpdaterArtifacts": false, "externalBin": [] },
             "plugins": { "updater": { "endpoints": [] } }
         });

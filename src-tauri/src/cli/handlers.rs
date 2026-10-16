@@ -196,9 +196,9 @@ mod tests {
         let paths =
             RuntimePaths::from_roots(default_runtime_profile(), "/fixture/home", "/fixture/data");
         let (identifier, central, bridge) = if cfg!(any(debug_assertions, feature = "local-test")) {
-            ("com.qufei1993.skillshub", ".skillshub", ".skills-hub-dev")
+            ("com.grasphub.app", ".grasphub", ".grasp-hub-dev")
         } else {
-            ("com.qufei1993.skillshub", ".skillshub", ".skills-hub")
+            ("com.grasphub.app", ".grasphub", ".grasp-hub")
         };
         assert_eq!(
             paths.app_data_dir,
